@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    transition: 0.3s;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+#btnAccesibilidad {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 10px;
+    background: #11171e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#panelAccesibilidad {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 15px;
+    background: white;
+    border: 1px solid black;
+    padding: 15px;
+    width: 220px;
+}
+
+.texto-grande {
+    font-size: 1.3em;
+}
+
+.contraste {
+    background: black;
+    color: yellow;
+}
+
+.fuente-legible {
+    font-family: Arial, sans-serif;
+}
+
+.subrayar-enlaces a {
+    text-decoration: underline !important;
+}
+
+.enfoque-visible *:focus {
+    outline: 3px solid red;
+}
+
+.modo-lectura nav,
+.modo-lectura header img {
+    display: none;
+}
